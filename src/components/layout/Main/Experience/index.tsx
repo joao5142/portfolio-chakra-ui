@@ -2,7 +2,6 @@ import {
   Box,
   Button,
   Flex,
-  List,
   ListItem,
   Text,
   UnorderedList,
