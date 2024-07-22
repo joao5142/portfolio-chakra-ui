@@ -5,68 +5,68 @@ export function Tecnologies() {
   const tecnologies = [
     {
       title: "Vue",
-      image: "/public/images/tecnologies/vue.svg",
+      image: "/images/tecnologies/vue.svg",
     },
     {
       title: "React",
-      image: "/public/images/tecnologies/react.svg",
+      image: "/images/tecnologies/react.svg",
     },
     {
       title: "Sass",
-      image: "/public/images/tecnologies/sass.svg",
+      image: "/images/tecnologies/sass.svg",
     },
     {
       title: "Laravel",
-      image: "/public/images/tecnologies/laravel.svg",
+      image: "/images/tecnologies/laravel.svg",
     },
     {
       title: "Next Js",
-      image: "/public/images/tecnologies/next.svg",
+      image: "/images/tecnologies/next.svg",
     },
     {
       title: "Nuxt",
-      image: "/public/images/tecnologies/nuxt.svg",
+      image: "/images/tecnologies/nuxt.svg",
     },
     {
       title: "Styled Components",
-      image: "/public/images/tecnologies/styled.svg",
+      image: "/images/tecnologies/styled.svg",
     },
     {
       title: "Typescript",
-      image: "/public/images/tecnologies/typescript.svg",
+      image: "/images/tecnologies/typescript.svg",
     },
     {
       title: "Docker",
-      image: "/public/images/tecnologies/docker.svg",
+      image: "/images/tecnologies/docker.svg",
     },
     {
       title: "Prime Vue",
-      image: "/public/images/tecnologies/prime.svg",
+      image: "/images/tecnologies/prime.svg",
     },
     {
       title: "Vitest",
-      image: "/public/images/tecnologies/vitest.svg",
+      image: "/images/tecnologies/vitest.svg",
     },
     {
       title: "Node",
-      image: "/public/images/tecnologies/node.svg",
+      image: "/images/tecnologies/node.svg",
     },
 
     {
       title: "Node",
-      image: "/public/images/tecnologies/node.svg",
+      image: "/images/tecnologies/node.svg",
     },
     {
       title: "Vuetify",
-      image: "/public/images/tecnologies/vuetify.svg",
+      image: "/images/tecnologies/vuetify.svg",
     },
     {
       title: "Tailwind",
-      image: "/public/images/tecnologies/tailwind.svg",
+      image: "/images/tecnologies/tailwind.svg",
     },
     {
       title: "Nest",
-      image: "/public/images/tecnologies/nest.svg",
+      image: "/images/tecnologies/nest.svg",
     },
   ];
   return (

@@ -50,7 +50,7 @@ export function Main() {
             </Flex>
             <Box position={"relative"} marginRight={"20%"}>
               <Image
-                src="/public/images/me.jfif"
+                src="/images/me.jfif"
                 alt=""
                 w={"400px"}
                 zIndex={2}
