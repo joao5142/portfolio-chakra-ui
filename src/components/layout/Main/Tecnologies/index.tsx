@@ -53,8 +53,8 @@ export function Tecnologies() {
     },
 
     {
-      title: "Node",
-      image: "/images/tecnologies/node.svg",
+      title: "Chakra Ui",
+      image: "/images/tecnologies/chakra.svg",
     },
     {
       title: "Vuetify",
