@@ -1,5 +1,5 @@
 <h1>Portfolio</h1>
-<h4>🚀 Projeto Portfolio  desenvolvido com React + Chakra UI + TS</h4>
+<h4>🚀 Projeto Portfólio  desenvolvido com React + Chakra UI + TS</h4>
 
 <h2>🚧 Status do projeto</h2>
 <p>Em progresso</p>

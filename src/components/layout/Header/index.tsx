@@ -7,7 +7,7 @@ export function Header() {
       <Container>
         <Flex justify={"space-between"} py={"3rem"}>
           <Link fontSize={"larger"} href="">
-            Portfolio
+            Portfólio
           </Link>
           <List
             display={{ base: "none", md: "none", lg: "flex" }}
