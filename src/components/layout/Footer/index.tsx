@@ -1,4 +1,5 @@
 import { Container } from "@/components/wrapper/Container";
+import { EmailService } from "@/services/EmailService";
 import {
   Box,
   Button,
@@ -9,8 +10,25 @@ import {
   Text,
   Textarea,
 } from "@chakra-ui/react";
+import { FormEvent, useRef, useState } from "react";
 
 export function Footer() {
+  const form = useRef<HTMLFormElement>(null);
+  const [isRequestLoading, setIsRequestLoading] = useState(false);
+
+  async function sendEmail(e: FormEvent) {
+    e.preventDefault();
+    console.log("entrou");
+    setIsRequestLoading(true);
+    try {
+      await EmailService.sendEmail(form.current as HTMLFormElement);
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setIsRequestLoading(false);
+    }
+  }
+
   return (
     <Box as="footer" py={"2rem"} bg={"primary"}>
       <Container>
@@ -23,28 +41,39 @@ export function Footer() {
           Entre em contato
         </Text>
 
-        <Flex direction={"column"} gap={"2rem"} mt={"10rem"}>
-          <Input
-            bg={"secondary"}
-            borderColor={"transparent"}
-            color={"white"}
-            maxW={"500"}
-            _placeholder={{ color: "whiteAlpha.500" }}
-            placeholder="Informe seu email"
-          ></Input>
+        <form ref={form} onSubmit={sendEmail} id="email-form" method="POST">
+          <Flex direction={"column"} gap={"2rem"} mt={"10rem"}>
+            <Input
+              name="user_email"
+              bg={"secondary"}
+              borderColor={"transparent"}
+              color={"white"}
+              maxW={"500"}
+              _placeholder={{ color: "whiteAlpha.500" }}
+              placeholder="Informe seu email"
+            ></Input>
 
-          <Textarea
-            bg={"secondary"}
-            borderColor={"transparent"}
-            color={"white"}
-            maxW={"500"}
-            placeholder="Digite aqui a mensagem que você deseja enviar"
-            _placeholder={{ color: "whiteAlpha.500" }}
-            rows={5}
-          />
+            <Textarea
+              bg={"secondary"}
+              borderColor={"transparent"}
+              color={"white"}
+              maxW={"500"}
+              placeholder="Digite aqui a mensagem que você deseja enviar"
+              _placeholder={{ color: "whiteAlpha.500" }}
+              rows={5}
+              name="message"
+            />
 
-          <Button maxW={"200"}>Enviar</Button>
-        </Flex>
+            <Button
+              form="email-form"
+              maxW={"200"}
+              type="submit"
+              isLoading={isRequestLoading}
+            >
+              Enviar
+            </Button>
+          </Flex>
+        </form>
 
         <Flex direction={"column"} align={"center"} gap={"2rem"} mt={"10rem"}>
           <Link
