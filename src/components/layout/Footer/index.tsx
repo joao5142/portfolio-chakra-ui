@@ -30,7 +30,7 @@ export function Footer() {
   }
 
   return (
-    <Box as="footer" py={"2rem"} bg={"primary"}>
+    <Box as="footer" py={"2rem"} bg={"primary"} id="contact">
       <Container>
         <Text
           fontSize={"x-large"}

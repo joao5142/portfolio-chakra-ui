@@ -7,7 +7,7 @@ import { Projects } from "./Projects";
 export function Main() {
   return (
     <main>
-      <section>
+      <section id="hero">
         <Container>
           <Flex
             mt={"-8rem"}
@@ -84,15 +84,15 @@ export function Main() {
         </Box>
       </section>
 
-      <section>
+      <section id="experience">
         <Experience />
       </section>
 
-      <section>
+      <section id="tecnologies">
         <Tecnologies />
       </section>
 
-      <section>
+      <section id="projects">
         <Projects />
       </section>
     </main>
