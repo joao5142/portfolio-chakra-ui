@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+<h1>Portfolio</h1>
+<h4>🚀 Projeto Portfolio  desenvolvido com React + Chakra UI + TS</h4>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>🚧 Status do projeto</h2>
+<p>Em progresso</p>
 
-Currently, two official plugins are available:
+<h2>🖥️ Pré-requisitos e como rodar a aplicação/testes</h2>
+<p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com) </p>
+<h3>Rodando a Aplicação</h3>
+<ul>
+	<li>Clone esse repositório(git clone)</li>
+	<li>Instale as dependências(npm i | yarn)</li>
+	<li>No terminal , digite o comando (npm run dev | yarn dev).</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>🤖 Tecnologias Utilizadas</h2>
+<div style="display: inline_block">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+ 
+</div>
 
-## Expanding the ESLint configuration
+<h2>🖼️ Demonstração da aplicação</h2>
+<img margin-bottom="20px" src="/public/readme/readme1.png">
+<img margin-bottom="20px" src="/public/readme/readme2.png">
+<img margin-bottom="20px" src="/public/readme/readme3.png">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<div>
+	<h4  style="display: inline_block">Visualização do site :</h4>
+	<a style="display: inline_block" target="blank" href="https://portfolio-chakra-ui-five.vercel.app/">
+			Preview no Vercel
+	</a>
+</div>
 
-- Configure the top-level `parserOptions` property like this:
+<!-- <h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://portfolio-davi-inky.vercel.app/">Preview no Vercel</a> -->
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h2>🧑🏻‍ Autor</h2>
+<p>Feito por João paulo</p>
+<a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-8b38b8254/">
+	<img src="https://img.shields.io/badge/-João-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/jo%C3%A3o-paulo-ferreira-neto-467880182/">
+</a>
+<a href="mailto:joaopauloneto3687@gmail.com">
+	<img src="https://img.shields.io/badge/-joaopauloneto3687@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:joaopauloneto3687@gmail.com">
+</a>
