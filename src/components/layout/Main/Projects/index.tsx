@@ -224,7 +224,7 @@ export function Projects() {
         </Flex>
       </Flex>
 
-      <Box ref={sliderRef} className="keen-slider" mt={"3rem"}>
+      <Box ref={sliderRef} className="keen-slider" mt={"3rem"} mb={"5rem"}>
         {slides.map((slide, index) => (
           <Box key={"project" + index} className="keen-slider__slide">
             <ProjectSlider

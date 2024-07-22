@@ -36,7 +36,6 @@ export function ProjectSlider({ slide }: ProjectSlideProps) {
     <Grid
       templateColumns={{ base: "1fr", md: "1fr 2fr" }}
       borderRadius={"1rem"}
-      mb={"5rem"}
       maxH={"575px"}
       h={"100%"}
     >

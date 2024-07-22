@@ -12,7 +12,7 @@ import {
 
 export function Footer() {
   return (
-    <Box as="footer" py={"2rem"} bg={"primary"} px={"1rem"}>
+    <Box as="footer" py={"2rem"} bg={"primary"}>
       <Container>
         <Text
           fontSize={"x-large"}
