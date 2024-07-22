@@ -51,6 +51,7 @@ export function Footer() {
               maxW={"500"}
               _placeholder={{ color: "whiteAlpha.500" }}
               placeholder="Informe seu email"
+              focusBorderColor={"white"}
             ></Input>
 
             <Textarea
@@ -62,6 +63,7 @@ export function Footer() {
               _placeholder={{ color: "whiteAlpha.500" }}
               rows={5}
               name="message"
+              focusBorderColor={"white"}
             />
 
             <Button
