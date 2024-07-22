@@ -90,7 +90,7 @@ export function Tecnologies() {
               h={"100%"}
             >
               <Image src={tecnology.image} w={"80px"} h={"80px"} />
-              <Text>{tecnology.title}</Text>
+              <Text textAlign={"center"}>{tecnology.title}</Text>
               <Box
                 h={"2px"}
                 w={"100%"}
