@@ -15,7 +15,7 @@ export function Header() {
             color={"white"}
           >
             <Link href="#experience">
-              <ListItem cursor={"pointer"}>Experiência</ListItem>
+              <ListItem cursor={"pointer"}>Experiências</ListItem>
             </Link>
             <Link href="#tecnologies">
               <ListItem cursor={"pointer"}>Tecnologias</ListItem>
