@@ -29,11 +29,15 @@
 <div>
 	<h4  style="display: inline_block">Visualização do site :</h4>
 	<a style="display: inline_block" target="blank" href="https://portfolio-chakra-ui-five.vercel.app/">
-			Preview no Vercel
+			Preview na Vercel
 	</a>
+	<br/><br/>
+	<a style="display: inline_block" target="blank" href="https://www.figma.com/design/6mt2adopvMRBRmcp8U3God/Portfolio?node-id=0-1&t=udQkqzOIq8GWrH81-0">Visualizar no Figma</a>
 </div>
 
+
 <!-- <h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://portfolio-davi-inky.vercel.app/">Preview no Vercel</a> -->
+<!-- <h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://www.figma.com/design/6mt2adopvMRBRmcp8U3God/Portfolio?node-id=0-1&t=udQkqzOIq8GWrH81-0">Visualizar no Figma</a> -->
 
 <h2>🧑🏻‍ Autor</h2>
 <p>Feito por João paulo</p>
