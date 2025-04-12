@@ -8,6 +8,25 @@ import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import { useKeenSlider } from "keen-slider/react";
 
 const slides = [
+
+  {
+    name: "Personal Finance",
+    description: "Seu dinheiro merece um plano simples.",
+    primaryColor: "#fafafa",
+    secondaryColor: "#C9B5A0",
+    titleColor: "black",
+    textColor: "gray.600",
+    bagedBgActive: "#C9B5A0",
+    bagedBg: "#E1E1E1",
+    imageWidth: 680,
+    imageHeight: 450,
+    images: [
+      ["/images/projects/finance/1.png"],
+      ["/images/projects/finance/2.png"],
+      ["/images/projects/finance/3.png"],
+    ],
+    emphasis: true,
+  },
   {
     name: "Coffee Delivery",
     description: "Sua vida corrida pede aquele cafezinho.",
@@ -24,7 +43,7 @@ const slides = [
       ["/images/projects/coffee_delivery/2.png"],
       ["/images/projects/coffee_delivery/3.png"],
     ],
-    emphasis: true,
+    emphasis:false,
   },
 
   {
