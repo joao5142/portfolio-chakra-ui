@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Image, Link, Text, useBreakpointValue, useColorMode, useColorModeValue } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Link, Text, useBreakpointValue, useColorMode } from "@chakra-ui/react";
 import { Container } from "../../wrapper/Container/index";
 import { Experience } from "./Experience";
 import { Tecnologies } from "./Tecnologies";
