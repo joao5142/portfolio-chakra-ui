@@ -1,10 +1,18 @@
-import { Box, Button, Flex, Image, Link, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Link, Text, useBreakpointValue, useColorMode, useColorModeValue } from "@chakra-ui/react";
 import { Container } from "../../wrapper/Container/index";
 import { Experience } from "./Experience";
 import { Tecnologies } from "./Tecnologies";
 import { Projects } from "./Projects";
 
 export function Main() {
+
+  const { colorMode } = useColorMode()
+
+  const color = useBreakpointValue({
+    base: colorMode === 'dark' ? 'inherit' : 'transparent',
+    md: 'transparent',
+  });
+
   return (
     <main>
       <section id="hero">
@@ -23,24 +31,26 @@ export function Main() {
                 as={"strong"}
                 fontSize={"xxx-large"}
                 bgGradient={{
-                  base: "linear(to-r, black 50%, white)",
-                  md: "linear(to-r,black,black)",
+                  base: "linear(to-r, black 50%, white)",  
+                  md: "linear(to-r, black, black)",
                 }}
                 bgClip="text"
+                color= { color }
               >
                 João Paulo
               </Text>
-
+              
               <Text
                 display={"block"}
                 as={"span"}
                 fontSize={"larger"}
-                bgGradient={{
+                 bgGradient={{
                   base: "linear(to-r, black 50%, white)",
                   md: "linear(to-r,black,black)",
                 }}
-                bgClip="text"
-              >
+                bgClip="text"     
+                color={{ base :"inherit", md:"transparent"  }}       
+                >
                 Full Stack Developer
               </Text>
 
@@ -80,7 +90,6 @@ export function Main() {
           top={0}
           right={0}
         >
-          2
         </Box>
       </section>
 
