@@ -8,10 +8,17 @@ export function Main() {
 
   const { colorMode } = useColorMode()
 
-  const color = useBreakpointValue({
-    base: colorMode === 'dark' ? 'inherit' : 'transparent',
-    md: 'transparent',
+  const textColor = useBreakpointValue({
+    base: colorMode === 'dark' ? 'white' : 'transparent',
+    md: colorMode === 'dark' ? 'inheright' : 'transparent',
   });
+
+  const textBgColor =  useBreakpointValue(
+    {
+      base:  colorMode === 'dark' ?  'white' : "linear(to-r, black 50%, white)",
+      md:  colorMode === 'dark' ? 'white' :  "linear(to-r,black,black)",
+    }
+  )
 
   return (
     <main>
@@ -30,12 +37,9 @@ export function Main() {
               <Text
                 as={"strong"}
                 fontSize={"xxx-large"}
-                bgGradient={{
-                  base: "linear(to-r, black 50%, white)",  
-                  md: "linear(to-r, black, black)",
-                }}
+                bgGradient={  textBgColor  }
                 bgClip="text"
-                color= { color }
+                color= { textColor }
               >
                 João Paulo
               </Text>
@@ -44,12 +48,9 @@ export function Main() {
                 display={"block"}
                 as={"span"}
                 fontSize={"larger"}
-                 bgGradient={{
-                  base: "linear(to-r, black 50%, white)",
-                  md: "linear(to-r,black,black)",
-                }}
+                 bgGradient={ textBgColor }
                 bgClip="text"     
-                color={{ base :"inherit", md:"transparent"  }}       
+                color={ textColor }       
                 >
                 Full Stack Developer
               </Text>
