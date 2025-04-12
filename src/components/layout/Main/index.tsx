@@ -10,16 +10,14 @@ export function Main() {
 
   const textColor = useBreakpointValue({
     base: colorMode === 'dark' ? 'white' : 'transparent',
-    md: colorMode === 'dark' ? 'inheright' : 'transparent',
+    md: colorMode === 'dark' ? 'inherit' : 'transparent',
   });
-
-  const textBgColor =  useBreakpointValue(
-    {
-      base:  colorMode === 'dark' ?  'white' : "linear(to-r, black 50%, white)",
-      md:  colorMode === 'dark' ? 'white' :  "linear(to-r,black,black)",
-    }
-  )
-
+  
+  const textBgColor = useBreakpointValue({
+    base: colorMode === 'dark' ? 'white' : 'linear(to-r, black 50%, white)',
+    md: colorMode === 'dark' ? 'white' : 'linear(to-r, black, black)',
+  });
+  
   return (
     <main>
       <section id="hero">
