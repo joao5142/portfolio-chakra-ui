@@ -27,6 +27,25 @@ const slides = [
     ],
     emphasis: true,
   },
+
+  {
+    name: "Naped",
+    description: "Sua principal fonte de informação no mundo nerd",
+    primaryColor: "#6439C8",
+    secondaryColor: "#5025B4",
+    titleColor: "white",
+    textColor: "white",
+    bagedBgActive: "#FFFFFF",
+    bagedBg: "#9B79EB",
+    imageWidth: 680,
+    imageHeight: 450,
+    images: [
+      ["/images/projects/naped/1.png"],
+      ["/images/projects/naped/2.png"],
+      ["/images/projects/naped/3.png"],
+    ],
+  },
+
   {
     name: "Coffee Delivery",
     description: "Sua vida corrida pede aquele cafezinho.",
@@ -91,23 +110,6 @@ const slides = [
     ],
   },
 
-  {
-    name: "Naped",
-    description: "Sua principal fonte de informação no mundo nerd",
-    primaryColor: "#6439C8",
-    secondaryColor: "#5025B4",
-    titleColor: "white",
-    textColor: "white",
-    bagedBgActive: "#FFFFFF",
-    bagedBg: "#9B79EB",
-    imageWidth: 680,
-    imageHeight: 450,
-    images: [
-      ["/images/projects/naped/1.png"],
-      ["/images/projects/naped/2.png"],
-      ["/images/projects/naped/3.png"],
-    ],
-  },
 
   {
     name: "Twitter",
