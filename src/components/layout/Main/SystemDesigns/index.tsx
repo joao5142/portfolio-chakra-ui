@@ -1,5 +1,5 @@
 import { Container } from "@/components/wrapper/Container";
-import { Box, Flex, Grid, GridItem, Image, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { useKeenSlider } from "keen-slider/react";
 
 export function SystemDesigns() {
