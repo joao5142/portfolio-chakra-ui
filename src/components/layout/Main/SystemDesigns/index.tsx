@@ -10,6 +10,10 @@ export function SystemDesigns() {
   });
 
   const systemDesigns = [
+     {
+      title: "Projeto 1",
+      image: "/images/system-design/1.png",
+    },
     {
       title: "Projeto 2",
       image: "/images/system-design/2.png",
