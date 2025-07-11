@@ -3,6 +3,7 @@ import { Container } from "../../wrapper/Container/index";
 import { Experience } from "./Experience";
 import { Tecnologies } from "./Tecnologies";
 import { Projects } from "./Projects";
+import { SystemDesigns } from "./SystemDesigns";
 
 export function Main() {
 
@@ -98,6 +99,10 @@ export function Main() {
 
       <section id="tecnologies">
         <Tecnologies />
+      </section>
+
+       <section id="system-design">
+        <SystemDesigns />
       </section>
 
       <section id="projects">

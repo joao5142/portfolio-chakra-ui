@@ -14,12 +14,17 @@ export function Header() {
             gap={"2rem"}
             color={"white"}
           >
-            <Link href="#experience">
+            <Link href="#experience" color={"gray"}>
               <ListItem cursor={"pointer"}>Experiências</ListItem>
             </Link>
             <Link href="#tecnologies">
               <ListItem cursor={"pointer"}>Tecnologias</ListItem>
             </Link>
+
+             <Link href="#system-design">
+              <ListItem cursor={"pointer"}>System Design</ListItem>
+            </Link>
+
             <Link href="#projects">
               <ListItem cursor={"pointer"}>Projetos</ListItem>
             </Link>
