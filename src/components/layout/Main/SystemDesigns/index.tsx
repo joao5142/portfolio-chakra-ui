@@ -19,8 +19,12 @@ export function SystemDesigns() {
       image: "/images/system-design/2.png",
     },
     {
-      title: "Projeto 2",
+      title: "Projeto 3",
       image: "/images/system-design/3.png",
+    },
+      {
+      title: "Projeto 4",
+      image: "/images/system-design/4.png",
     },
   ];
 
