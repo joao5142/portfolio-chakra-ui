@@ -3,13 +3,25 @@ import { Box, Flex, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 
 export function Tecnologies() {
   const tecnologies = [
-    {
+     {
       title: "Vue",
       image: "/images/tecnologies/vue.svg",
     },
+     {
+      title: "AWS",
+      image: "/images/tecnologies/aws.svg",
+    },
     {
-      title: "React",
-      image: "/images/tecnologies/react.svg",
+      title: "Nuxt",
+      image: "/images/tecnologies/nuxt.svg",
+    },
+    {
+      title: "Prime Vue",
+      image: "/images/tecnologies/prime.svg",
+    },
+     {
+      title: "Sentry",
+      image: "/images/tecnologies/sentry.svg",
     },
     {
       title: "Sass",
@@ -20,13 +32,22 @@ export function Tecnologies() {
       image: "/images/tecnologies/laravel.svg",
     },
     {
+      title: "Nest",
+      image: "/images/tecnologies/nest.svg",
+    },
+    {
+      title: "Docker",
+      image: "/images/tecnologies/docker.svg",
+    },
+    {
+      title: "React",
+      image: "/images/tecnologies/react.svg",
+    },
+    {
       title: "Next Js",
       image: "/images/tecnologies/next.svg",
     },
-    {
-      title: "Nuxt",
-      image: "/images/tecnologies/nuxt.svg",
-    },
+
     {
       title: "Styled Components",
       image: "/images/tecnologies/styled.svg",
@@ -34,14 +55,6 @@ export function Tecnologies() {
     {
       title: "Typescript",
       image: "/images/tecnologies/typescript.svg",
-    },
-    {
-      title: "Docker",
-      image: "/images/tecnologies/docker.svg",
-    },
-    {
-      title: "Prime Vue",
-      image: "/images/tecnologies/prime.svg",
     },
     {
       title: "Vitest",
@@ -64,15 +77,12 @@ export function Tecnologies() {
       title: "Tailwind",
       image: "/images/tecnologies/tailwind.svg",
     },
-    {
-      title: "Nest",
-      image: "/images/tecnologies/nest.svg",
-    },
+
   ];
   return (
     <Container>
       <Text fontSize={"xx-large"} fontWeight={"bold"} mt={"10rem"}>
-        Tecnologias
+        Tecnologias & Plataformas
       </Text>
 
       <Grid
