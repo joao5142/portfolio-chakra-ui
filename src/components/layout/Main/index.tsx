@@ -60,10 +60,13 @@ export function Main() {
             </Flex>
             <Box position={"relative"} marginRight={"20%"}>
               <Image
-                src="/images/me.webp"
+                src="/images/me2.jpg"
                 alt=""
                 w={"400px"}
+                h={"400px"}
                 zIndex={2}
+               
+                objectFit={"cover"}
                 position={"relative"}
               />
               <Box
