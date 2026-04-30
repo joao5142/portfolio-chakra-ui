@@ -12,22 +12,26 @@ export function SystemDesigns() {
   const systemDesigns = [
     {
       title: "Projeto 1",
-      image: "/images/system-design/9.png",
+      image: "/images/system-design/10.png",
     },
      {
-      title: "Projeto 1",
-      image: "/images/system-design/1.webp",
-    },
-    {
       title: "Projeto 2",
-      image: "/images/system-design/2.webp",
+      image: "/images/system-design/9.png",
     },
     {
       title: "Projeto 3",
+      image: "/images/system-design/1.webp",
+    },
+    {
+      title: "Projeto 4",
+      image: "/images/system-design/2.webp",
+    },
+    {
+      title: "Projeto 5",
       image: "/images/system-design/3.png",
     },
       {
-      title: "Projeto 4",
+      title: "Projeto 6",
       image: "/images/system-design/4.png",
     },
   ];
