@@ -60,7 +60,7 @@ export function Main() {
             </Flex>
             <Box position={"relative"} marginRight={"20%"}>
               <Image
-                src="/images/me2.jpg"
+                src="/images/me3.jpg"
                 alt=""
                 w={"400px"}
                 h={"400px"}
